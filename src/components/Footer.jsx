@@ -49,14 +49,14 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
-                    <div className="dc-foto">
+                    <div className="dc-foto-bg">
                         <img src="./img/dc-logo-bg.png" alt="" />
                     </div>
                 </div>
             </div>
             <div className="lower-footer">
                 <div className="container-lower-footer">
-                    <div className="sign">
+                    <div className="sign-up">
                         <a href="#">SIGN-UP NOW!</a>
                     </div>
                     <div className="social">

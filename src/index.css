@@ -15,6 +15,7 @@ header {
     align-items: center;
 }
 
+/* upper footer */
 .container-header {
     display: flex;
     justify-content: space-between;
@@ -33,6 +34,7 @@ header li {
     display: flex;
     align-items: center;
     font-weight: bold;
+    margin: 0 10px;
 }
 
 .logo {
@@ -42,6 +44,34 @@ header li {
 
 header img {
     height: 70%;
+}
+
+/* regole main */
+main {
+    position: relative;
+    z-index: 1;
+
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: #1f1f1f;
+}
+
+main span {
+    color: white;
+    font-size: 24px;
+}
+
+main .content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
 }
 
 /* regole footer */
@@ -84,7 +114,43 @@ h3 {
     height: 110%;
 }
 
-.dc-foto {
+.dc-foto-bg {
     margin-top: -100px;
     margin-bottom: 30px;
+}
+
+/* lower footer */
+.lower-footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(77, 77, 77);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.lower-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-lower-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-up a {
+    border: 2px solid rgb(28, 120, 173);
+    padding: 10px
 }
